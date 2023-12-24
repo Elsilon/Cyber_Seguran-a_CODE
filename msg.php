@@ -23,6 +23,7 @@
 </html>
 
 <?php
+// Está muito bom passar o dia em Familia no interior
 if(isset($_POST['msg'])){
 $output=shell_exec("curl http://localhost/".$_POST['msg']);
 echo $output;
